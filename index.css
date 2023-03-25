@@ -1,0 +1,90 @@
+@font-face{
+    src: url(fonts/CursedTimerUlil-Aznm.ttf);
+    font-family: ulil;
+}
+body {
+    margin: 0;
+    background: #E5E5E5;
+    background-size: cover;
+    font-family: 'Verdana', 'Helvetica Neue', sans-serif ;
+    text-align: center;
+    height: 100vh;
+    border: 2px solid #E5E5E5;
+    border-radius: 10px;
+    
+}
+
+.container {
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;;
+    max-width: 80%;
+    margin: auto;
+}
+
+h3 {
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #EEEEEE;
+    text-align: center;
+    
+}
+
+h2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 126px;
+    color: #F94F6D;
+    text-align: center;
+
+}
+#homeScore{
+    font-family: ulil;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 126px;
+    color: #F94F6D;    
+}
+#guestScore{
+    font-family: ulil;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 126px;
+    color: #F94F6D;    
+}
+
+button {
+    font-family: ulil;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #9AABD8;
+    font-weight: bold;
+    width: 45px;
+    margin-bottom: 5px;
+   
+
+}
+
+#homeBoard {
+    width: 100%;
+    background: #080001;
+    
+   
+}
+
+#guestBoard {
+    width: 100%;
+    background: #080001;
+    
+
+}
+
+#save-el {
+    font-weight: bold;
+}
+
